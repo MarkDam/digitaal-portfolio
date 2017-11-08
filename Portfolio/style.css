@@ -1,0 +1,227 @@
+body {
+  margin: 0px;
+  background-image: url("https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?w=738");
+  background-size: 100%;
+}
+
+header {
+  background-color: grey;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  text-align: center;
+  border-bottom-style: solid;
+  border-width: 3px;
+  top: -20px;
+  z-index: 1;
+}
+
+footer {
+  background-color: grey;
+  width: 100%;
+  height: 30px;
+  border-top-style: solid;
+  border-width: 3px;
+  position: absolute;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  word-spacing: 60px;
+  position: relative;
+  top: -18px;
+
+  border-top-style: solid;
+  border-width: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+a:hover {
+  color: black
+}
+
+.img {
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  width: 180px;
+  height: 180px;
+}
+
+.a {
+  position: absolute;
+  bottom: 17px;
+  left: 25px;
+}
+
+.a:hover {
+  color: yellow;
+}
+
+#p {
+  text-align: center;
+  line-height: 0px;
+}
+
+.p {
+  padding-left: 10px;
+}
+
+.spotlight {
+  position: relative;
+  top: 100px;
+  left: 60px;
+}
+
+.img1 {
+  position: relative;
+  top: -150px;
+  left: 60px;
+}
+
+.overwatch {
+  position: relative;
+  left: 150px;
+  top: -70px;
+}
+
+.ontwikkelaar {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#container {
+  position: relative;
+  top: 80px;
+  left: 50px;
+  width: 300px;
+  height: 800px;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#container1 {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  margin: auto;
+  width: 390px;
+  height: 300px;
+  background-color: grey;
+  list-style-type: none;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+}
+
+#container2 {
+  position: relative;
+  top: -230px;
+  right: -170px;
+  margin: auto;
+  width: 390px;
+  height: 105px;
+  background-color: grey;
+  list-style-type: none;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.container3 {
+  position: relative;
+  top: -230px;
+  right: -180px;
+  margin: auto;
+  width: 370px;
+  height: 75px;
+  background-color: grey;
+  list-style-type: none;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.article {
+  position: relative;
+  left: 80px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 240px;
+}
+
+.aside {
+  background-color: grey;
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  right: 300px;
+  top: 130px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.aside1 {
+  background-color: grey;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  right: 330px;
+  top: 330px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.aside2 {
+  position: relative;
+  top: 170px;
+  right: -240px;
+  margin: auto;
+  width: 250px;
+  height: 300px;
+  background-color: grey;
+  list-style-type: none;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+}
+
+.aside3 {
+  position: relative;
+  top: -160px;
+  right: -230px;
+  margin: auto;
+  width: 390px;
+  height: 165px;
+  background-color: grey;
+  list-style-type: none;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
